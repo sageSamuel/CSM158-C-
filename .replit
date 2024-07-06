@@ -1,3 +1,7 @@
 modules = ["cpp-clang14"]
+run = "run = \"g++ main.cpp -o main && ./main\""
 [nix]
 channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "run = \"g++ main.cpp -o main && ./main\""]
