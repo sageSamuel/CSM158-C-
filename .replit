@@ -1,7 +1,7 @@
 modules = ["cpp-clang14"]
-run = "run = \"g++ .ccls-cache/@home@runner@CSM158-C-1/Finding the netpay of Employees@main.cpp.blob"
+run = "run = \"g++ .ccls-cache/@home@runner@CSM158-C-1/Finding the netpay of Employees@.ccls-cache/@@home@runner@CSM158-C-1/@nix@store@fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev@include@bits@libc-header-start.h.blob"
 [nix]
 channel = "stable-23_11"
 
 [deployment]
-run = ["sh", "-c", "run = \"g++ .ccls-cache/@home@runner@CSM158-C-1/Finding the netpay of Employees@main.cpp.blob"]
+run = ["sh", "-c", "run = \"g++ .ccls-cache/@home@runner@CSM158-C-1/Finding the netpay of Employees@.ccls-cache/@@home@runner@CSM158-C-1/@nix@store@fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev@include@bits@libc-header-start.h.blob"]
