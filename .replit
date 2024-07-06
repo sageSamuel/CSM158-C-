@@ -1,7 +1,7 @@
 modules = ["cpp-clang14"]
-run = "run = \"g++ main.cpp -o main && ./main\""
+run = "run = \"g++ .ccls-cache/@home@runner@CSM158-C-1/Finding the netpay of Employees@main.cpp.blob"
 [nix]
 channel = "stable-23_11"
 
 [deployment]
-run = ["sh", "-c", "run = \"g++ main.cpp -o main && ./main\""]
+run = ["sh", "-c", "run = \"g++ .ccls-cache/@home@runner@CSM158-C-1/Finding the netpay of Employees@main.cpp.blob"]
